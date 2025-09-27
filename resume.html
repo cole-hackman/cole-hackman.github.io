@@ -17,58 +17,84 @@
 
     <main>
       <h1 class="page-title">resume</h1>
+      <p><a href="Cole_Hackman_Resume.pdf" download>Download Resume</a></p>
 
+      <!-- Education -->
       <section class="section">
         <h2 class="section-title">Education</h2>
-        <p><strong>California Polytechnic State University</strong>, San Luis Obispo, CA — B.S. Computer Science, GPA 3.873 (Sep 2024 – Jun 2028)</p>
-        <p>Clubs: AWS Cloud Club, CS+AI Club</p>
+
+        <div class="entry">
+          <h3 class="entry-title">California Polytechnic State University — B.S. Computer Science (GPA 3.873)</h3>
+          <p class="entry-info">San Luis Obispo, CA &middot; Sep 2024 – Jun 2028</p>
+          <p class="entry-description">Involvement: CS+AI Club, AWS Cloud Club</p>
+        </div>
       </section>
 
+      <!-- Coursework -->
       <section class="section">
-        <h2 class="section-title">Experience</h2>
-        <article>
-          <h3>AI &amp; Software Engineering Intern — Elite Bricks (Aug 2025 – Present)</h3>
-          <ul>
-            <li>Scaled support for 700+ clients via Python Discord bot with secure promos, rate limiting, and audit logs.</li>
-            <li>Automated promo distribution: 200+ weekly codes delivered in seconds; eliminated manual work.</li>
-            <li>Created internal docs and AI automation guides (n8n, Make) for client onboarding.</li>
-          </ul>
-        </article>
-        <article>
-          <h3>AI Development Intern — Ewing and Clark, Inc. (Jun 2025 – Sep 2025)</h3>
-          <ul>
-            <li>Cut listing description time from 15–20 min to 1–2 min with GPT-4 + Python service.</li>
-            <li>Built React/Tailwind UI; OpenAI integration reduced review loops ~5× and errors.</li>
-            <li>Deployed internally; 100+ listings in first month and ~20 minutes saved per listing.</li>
-          </ul>
-        </article>
-        <article>
-          <h3>Campus Partner — Perplexity AI (Sep 2025 – Present)</h3>
-          <ul>
-            <li>Represent Perplexity at Cal Poly; promote Comet browser and Perplexity Pro via events/resources.</li>
-          </ul>
-        </article>
-        <article>
-          <h3>Founder &amp; CEO — Cole Soles (Mar 2020 – Sep 2024)</h3>
-          <ul>
-            <li>Grew ecommerce resale business to $150K revenue with 25% margins; ~20% repeat-purchase rate.</li>
-          </ul>
-        </article>
-      </section>
-
-      <section class="section">
-        <h2 class="section-title">Projects</h2>
-        <ul>
-          <li><strong>Lake Washington Detailing Website</strong> — React, Node.js, PostgreSQL, Tailwind</li>
-          <li><strong>Unfollowr</strong> — Python, Flask, Bootstrap, BeautifulSoup</li>
+        <h2 class="section-title">Coursework</h2>
+        <ul class="course-list">
+          <li>Data Structures</li>
+          <li>Discrete Mathematics</li>
+          <li>Object-Oriented Programming (Java)</li>
+          <li>Intro to Computer Systems</li>
         </ul>
       </section>
 
+      <!-- Skills -->
       <section class="section">
         <h2 class="section-title">Skills</h2>
-        <p><strong>Languages:</strong> Python, Java, JavaScript</p>
-        <p><strong>Frameworks:</strong> React, Next.js, Node.js, Flask, Express, Bootstrap, Tailwind</p>
-        <p><strong>Tools:</strong> Git, Docker, DigitalOcean, Figma, Hugging Face, OpenAI API</p>
+        <ul class="skill-list">
+          <li><strong>Languages:</strong> Python, Java, JavaScript</li>
+          <li><strong>Frameworks:</strong> React, Next.js, Node.js, Flask, Express, Bootstrap, Tailwind</li>
+          <li><strong>Tools:</strong> Git, Docker, DigitalOcean, Figma, Hugging Face, OpenAI API</li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section class="section">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="entry">
+          <h3 class="entry-title">Lake Washington Detailing Website</h3>
+          <p class="entry-info">React, Node.js, PostgreSQL, Tailwind &middot; Jun 2025 – Present</p>
+          <p class="entry-description">Calendly integration reduced manual bookings ~95%; Express backend with health checks and a vehicle-based estimator cut quoting to &lt;2 minutes.</p>
+        </div>
+
+        <div class="entry">
+          <h3 class="entry-title">Unfollowr</h3>
+          <p class="entry-info">Python, Flask, Bootstrap, BeautifulSoup &middot; Jul 2025 – Present</p>
+          <p class="entry-description">Analyzes Instagram export HTML up to 50&nbsp;MB; batch actions + filters speed cleanup by ~40% vs. manual review; 50+ users.</p>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="section">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="entry">
+          <h3 class="entry-title">AI &amp; Software Engineering Intern — Elite Bricks</h3>
+          <p class="entry-info">Remote &middot; Aug 2025 – Present</p>
+          <p class="entry-description">Scaled support for 700+ clients via Python Discord bot (secure promos, rate limiting, audit logs); automated promo code pipeline delivering 200+ weekly codes.</p>
+        </div>
+
+        <div class="entry">
+          <h3 class="entry-title">AI Development Intern — Ewing and Clark, Inc.</h3>
+          <p class="entry-info">Seattle, WA &middot; Jun 2025 – Sep 2025</p>
+          <p class="entry-description">Cut listing description time from 15–20 minutes to 1–2 with GPT-4 + Python; React/Tailwind UI and OpenAI integration reduced review loops ~5×.</p>
+        </div>
+
+        <div class="entry">
+          <h3 class="entry-title">Campus Partner — Perplexity AI</h3>
+          <p class="entry-info">San Luis Obispo, CA &middot; Sep 2025 – Present</p>
+          <p class="entry-description">Represent Perplexity at Cal Poly; promote the Comet browser and Perplexity Pro through campus events and resources.</p>
+        </div>
+
+        <div class="entry">
+          <h3 class="entry-title">Founder &amp; CEO — Cole Soles</h3>
+          <p class="entry-info">Seattle, WA &middot; Mar 2020 – Sep 2024</p>
+          <p class="entry-description">Built an ecommerce resale business to $150K revenue with 25% margins; ~20% repeat-purchase rate.</p>
+        </div>
       </section>
     </main>
 
