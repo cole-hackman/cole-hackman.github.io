@@ -17,6 +17,27 @@
 
     <main>
       <h1 class="page-title">contact</h1>
+
+      <!-- Contact form -->
+      <form id="contact-form" action="#" method="post">
+        <p>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </p>
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="6" placeholder="Write your message..." required></textarea>
+        </p>
+        <p>
+          <input type="submit" value="Send Message">
+        </p>
+      </form>
+
+      <!-- Quick info list (kept) -->
       <section class="contact-info">
         <ul>
           <li><strong>Phone:</strong> <a href="tel:+12068834115">206-883-4115</a></li>
