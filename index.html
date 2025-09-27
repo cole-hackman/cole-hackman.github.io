@@ -4,29 +4,44 @@
     <title>Cole's Personal Website</title>
   </head>
   <body>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="resume.html">Resume</a> |
-      <a href="portfolio.html">Portfolio</a> |
-      <a href="blog.html">Blog</a> |
-      <a href="contact.html">Contact</a>
+    <nav class="navbar">
+      <h1 class="logo"><a href="index.html">Cole Hackman</a></h1>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
 
     <main>
-      <h1>Hello World!</h1>
+      <h1 class="page-title">home</h1>
 
       <div class="about">
-        <div class="about-image"></div>
+        <div class="about-image">
+          <img src="headshot.png" alt="Cole Hackman headshot" width="220" height="220">
+        </div>
         <div class="about-text">
-          <p>Welcome to my personal website. My name is <strong>Cole Hackman</strong>, and this is where I share my work and interests.</p>
-          <p>I’m currently learning web development and improving my skills step by step. This website is my way of practicing <em>semantic HTML</em> and building a foundation for bigger projects.</p>
-          <p>Feel free to look around and check out my <a href="portfolio.html">projects</a> or <a href="blog.html">blog</a> for updates.</p>
+          <p>Hey, I'm <strong>Cole</strong>. I'm a CS student at <a href="https://www.calpoly.edu/">Cal Poly SLO</a>, originally from Seattle.</p>
+          <p>I've been building businesses and solving problems with <em>technology</em> since I was young.</p>
         </div>
       </div>
+
+      <section>
+        <h2>A few achievements</h2>
+        <ul>
+          <li>Built Cole Soles to $150K revenue with 25% margins in high school</li>
+          <li>Cut listing description time by 90% with AI automation at E&amp;C</li>
+          <li>Scaled support for 700+ clients with automated Discord bot</li>
+          <li>Managed 200+ client detailing business with custom booking system</li>
+          <li>Selected as Campus Partner for Perplexity AI</li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
-      © 2025 Cole's Personal Website | All Rights Reserved | Made with love ♥
+    <footer class="footer">
+      © 2025 Cole's Personal Website | All Rights Reserved
     </footer>
   </body>
 </html>
