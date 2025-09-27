@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>
-        Cole's Portfolio
-    </title>
+    <title>Cole's Portfolio</title>
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
+      <h1 class="logo">Cole Hackman</h1>
       <a href="index.html">Home</a> |
       <a href="resume.html">Resume</a> |
       <a href="portfolio.html">Portfolio</a> |
@@ -15,10 +14,34 @@
     </nav>
 
     <main>
-      Below are some cool projects I've made!
+      <h1 class="page-title">portfolio</h1>
+
+      <section class="project">
+        <h2 class="section-title"><a href="#" aria-label="Lake Washington Detailing Website">Lake Washington Detailing Website</a></h2>
+        <p><em>React, Node.js, PostgreSQL, Tailwind</em> — Jun 2025 – Present</p>
+        <ul>
+          <li>Integrated Calendly to prevent double-booking; reduced manual bookings by ~95% across 30+ monthly quotes.</li>
+          <li>Express backend with health checks and session handling.</li>
+          <li>Vehicle-based estimator cut quoting from ~15 minutes to under 2 minutes.</li>
+        </ul>
+      </section>
+
+      <section class="project">
+        <h2 class="section-title"><a href="#" aria-label="Unfollowr">unfollowr</a></h2>
+        <p><em>Python, Flask, Bootstrap, BeautifulSoup</em> — Jul 2025 – Present</p>
+        <ul>
+          <li>Analyzes Instagram export HTML (up to 50 MB) to find non-reciprocal follows; adopted by 50+ users.</li>
+          <li>Dual-view UI with batch actions + real-time filters speeds cleanup by ~40% vs. manual review.</li>
+        </ul>
+      </section>
+
+      <section class="project">
+        <h2 class="section-title"><a href="#" aria-label="SoundCloud Toolkit">SoundCloud Toolkit</a></h2>
+        <p><em>Web toolkit</em> — power features for SoundCloud users: merge playlists, turn likes into playlists, reorder, secure sessions.</p>
+      </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       © 2025 Cole's Personal Website | All Rights Reserved
     </footer>
   </body>
