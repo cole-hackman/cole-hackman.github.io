@@ -290,3 +290,24 @@ form {
   margin: 0.4rem 0;
   line-height: 1.5;
 }
+
+/* --- Image-free homepage tweaks --- */
+.about {
+  display: block;            /* stack content vertically */
+  max-width: 1000px;
+  width: 100%;
+}
+.about-text { margin: 0; }
+.about-image { display: none; } /* in case any page still has the div */
+
+/* --- Projects layout: stop using the old two-column flex --- */
+.project {
+  display: block;            /* override earlier .project { display:flex } */
+  max-width: 1000px;
+  width: 100%;
+  margin: 1.25rem 0 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+.project .section-title { margin-bottom: .3rem; font-size: 1.25rem; }
+.project .entry-info { color: #374151; margin-bottom: .5rem; font-style: italic; }
